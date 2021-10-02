@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Unnamed Health Tracker for Capstone</string>
+    <string name="login_welcome">Welcome back! Login in here to begin reporting.</string>
+    <string name="username_here">Username</string>
+    <string name="password_here">password</string>
+    <string name="login_string_value">Login</string>
+    <string name="new_user_prompt">New User?</string>
+    <string name="welcome_new_user_msg">Glad to have you join us! \n Before we get started, we need some info from you!</string>
+    <string name="new_username">Create username</string>
+    <string name="new_password">Create a new password</string>
+    <string name="reEnter_password">Re-enter password</string>
+    <string name="submit">Submit</string>
+    <string name="new_interstitial_msg">Great of you to join us! Would you like to enter data today?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="enter_your_info">Welcome again! Please report what symptoms you have today.</string>
+    <string name="symptoms_hours">How many hours a day do you experience these symptoms?</string>
+    <string name="enter_hours">Enter hours here</string>
+    <string name="followed_doc_orders">Did you follow your doctor\'s orders?</string>
+    <string name="what_symptoms">What symptom did you experience?</string>
+    <string name="thank_you_for_info">Great! Thanks for reporting today! Are there any more symptoms?</string>
+    <string name="back_home">Home</string>
+    <string name="no_go_home">No, go home</string>
+
+</resources>

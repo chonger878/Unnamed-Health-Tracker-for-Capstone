@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/welcome_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/fifty_dp_padding_value"
+        android:text="Welcome to our app!"
+     />
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Login"
+        android:layout_below="@+id/welcome_msg"
+        android:layout_centerHorizontal="true"
+        android:onClick="onClick"
+        />
+
+    <Button
+        android:id="@+id/newuserbtn"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/new_user_prompt"
+        android:layout_below="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/twentyfive_dp_spacing"
+
+        />
+
+
+</RelativeLayout>

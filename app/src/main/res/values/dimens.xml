@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fifty_dp_padding_value">50dp</dimen>
+    <dimen name="twentyfive_dp_spacing">25dp</dimen>
+    <dimen name="twentyfive_px_spacing">25px</dimen>
+    <dimen name="fifty_px_spacing">50px</dimen>
+    <dimen name="one_hundred_px_spacing">100px</dimen>
+    <dimen name="ten_px_spacing">10px</dimen>
+</resources>

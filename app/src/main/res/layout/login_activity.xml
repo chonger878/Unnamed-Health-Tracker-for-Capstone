@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tumeric">
+
+    <TextView
+        android:id="@+id/welcome_login_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_welcome"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/fifty_dp_padding_value"
+        />
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_here"
+        android:layout_below="@+id/welcome_login_msg"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_here"
+        android:layout_below="@+id/username"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fifty_dp_padding_value"
+        android:text="@string/login_string_value"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/go_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_home"
+        android:layout_below="@+id/loginbtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fifty_px_spacing"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_bamboo_green">
+
+    <TextView
+        android:id="@+id/enter_info_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_your_info"
+        android:padding="@dimen/fifty_dp_padding_value"
+        />
+
+    <TextView
+        android:id="@+id/what_symptoms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/what_symptoms"
+        android:layout_below="@id/enter_info_here"
+        android:layout_margin="@dimen/twentyfive_px_spacing"
+        />
+    <Spinner
+        android:id="@+id/symptom_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/what_symptoms"
+        android:layout_margin="@dimen/twentyfive_px_spacing"
+        />
+
+    <TextView
+        android:id="@+id/how_many_hours_day"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="@string/symptoms_hours"
+         android:layout_below="@+id/symptom_spinner"
+         android:layout_margin="@dimen/twentyfive_px_spacing"
+        />
+
+    <EditText
+        android:id="@+id/enter_hours_here"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_hours"
+        android:layout_below="@id/how_many_hours_day"
+        android:layout_margin="@dimen/twentyfive_px_spacing"
+        />
+    <TextView
+        android:id="@+id/followed_directions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/followed_doc_orders"
+        android:layout_below="@+id/enter_hours_here"
+        android:layout_margin="@dimen/twentyfive_px_spacing"
+        />
+
+    <RadioButton
+        android:id="@+id/yes_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes"
+        android:layout_below="@+id/followed_directions"
+        />
+
+    <RadioButton
+        android:id="@+id/no_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no"
+        android:layout_toRightOf="@+id/yes_direction"
+        android:layout_below="@+id/followed_directions"
+        />
+    <Button
+         android:id="@+id/submit_symptoms_btn"
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:text="@string/submit"
+         android:layout_below="@+id/yes_direction"
+         android:layout_margin="@dimen/twentyfive_px_spacing"
+         android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/go_back_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/back_home"
+        android:layout_below="@+id/submit_symptoms_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/fifty_px_spacing"
+        />
+</RelativeLayout>
