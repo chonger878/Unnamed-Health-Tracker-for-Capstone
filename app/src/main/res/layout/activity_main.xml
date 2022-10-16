@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/fifty_dp_padding_value"
-        android:text="Welcome to and thank you for using our app!"
+        android:text="Welcome and thank you for using our app!"
      />
 
     <Button
