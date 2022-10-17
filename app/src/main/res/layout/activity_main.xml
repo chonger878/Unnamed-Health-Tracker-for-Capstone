@@ -12,14 +12,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="@dimen/fifty_dp_padding_value"
-        android:text="Welcom and thank you for using our app!"
+        android:text="@string/login_welcome"
      />
 
     <Button
         android:id="@+id/loginbtn"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"
-        android:text="Login"
+        android:text="@string/login_string_value"
         android:layout_below="@+id/welcome_msg"
         android:layout_centerHorizontal="true"
         android:onClick="onClick"
